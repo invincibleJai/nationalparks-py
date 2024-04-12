@@ -16,7 +16,7 @@ metadata:
     nexus-repository-manager/docker.image-name: 'test-nexus/nodetest1'
     jfrog-artifactory/image-name: 'test-nexus/nodetest1'
     lighthouse.com/website-url: https://backstage.io/
-    backstage.io/techdocs-ref: .
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: service
   lifecycle: unknown
