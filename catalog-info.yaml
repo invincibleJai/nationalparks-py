@@ -4,6 +4,7 @@ metadata:
   name: backstage-janus
   labels: 
     component: backstage-hello-world
+    donotshow: test
   annotations:
 #   github.com/project-slug: invinciblejai/nationalparks-py
 #   backstage.io/kubernetes-namespace: jai-test
