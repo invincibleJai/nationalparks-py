@@ -1,0 +1,36 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: temp-team-a
+  description: Temp Team A
+spec:
+  type: team
+  profile:
+    # Intentional no displayName for testing
+    email: mailjai.vardhan@gmail.com
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: invinciblejai
+spec:
+  profile:
+    # Intentional no displayName for testing
+    email: mailjai.vardhan@gmail.com
+  memberOf: [temp-team-a]
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: nationalparks-py
+  labels: 
+    component: nationalparks-py
+  annotations:
+    github.com/project-slug: invinciblejai/nationalparks-py
+    backstage.io/kubernetes-id: nationalparks-py
+    backstage.io/kubernetes-namespace: div
+spec:
+  type: service
+  lifecycle: unknown
+  owner: temp-team-a
