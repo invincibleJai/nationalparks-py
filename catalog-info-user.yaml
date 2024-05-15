@@ -23,6 +23,16 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
+  name: testjai2702
+spec:
+  profile:
+    # Intentional no displayName for testing
+    email: testjai2702@gmail.com
+  memberOf: [temp-team-b]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
   name: guest
 spec:
   profile:
