@@ -38,18 +38,3 @@ spec:
   profile:
     # Intentional no displayName for testing
     email: guest@example.com
----
-apiVersion: backstage.io/v1alpha1
-kind: Component
-metadata:
-  name: nationalparks-py
-  labels: 
-    component: nationalparks-py
-  annotations:
-    github.com/project-slug: invinciblejai/nationalparks-py
-    backstage.io/kubernetes-id: nationalparks-py
-    backstage.io/kubernetes-namespace: div
-spec:
-  type: service
-  lifecycle: unknown
-  owner: temp-team-a
