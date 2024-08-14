@@ -21,4 +21,4 @@ metadata:
 spec:
   type: service
   lifecycle: unknown
-  owner: temp-team-b
+  owner: temp-team-c
