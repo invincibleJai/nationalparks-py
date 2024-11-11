@@ -1,0 +1,11 @@
+site_name: 'app1-docs'
+repo_url: https://github.com/debsmita1/app-1
+edit_uri: edit/master/docs
+
+nav:
+  - Home: index.md
+  - Guide:
+    - Installation: app/install.md
+
+plugins:
+  - techdocs-core
