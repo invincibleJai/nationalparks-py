@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: backstage-janus
+  name: backstage-janus234
   labels: 
     component: backstage-hello-world
     donotshow: test
