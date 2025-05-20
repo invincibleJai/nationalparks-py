@@ -13,6 +13,16 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
+  name: rhdh-qe
+  # title: RHDH QE Title
+spec:
+  profile:
+    displayName: RHDH QE DN
+  memberOf: [janus-authors]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
   name: invinciblejai
 spec:
   profile:
